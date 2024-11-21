@@ -4,6 +4,7 @@ Topic 1: Introduction to Generative AI
 # Aim:	
   To introduce the concept of Generative AI, explain how it works, and discuss its applications and challenges.
 # Procedure:
+```
 Generative AI (GenAI) is a type of artificial intelligence technology that can produce various types of content, including text, imagery, audio and synthetic data. Generative artificial intelligence (generative AI, GenAI, or GAI) is a subset of artificial intelligence that uses generative models to produce text, images, videos, or other forms of data. These models often generate output in response to specific prompts. Generative AI systems learn the underlying
 patterns and structures of their training data, enabling them to create new data.
 The below diagram depicts the major characteristics of Generative AI which are classified as,
@@ -11,7 +12,7 @@ The below diagram depicts the major characteristics of Generative AI which are c
 ·	Technology
 ·	Process
 ·	People
-
+```
 ![image](https://github.com/user-attachments/assets/50a69019-3061-4b55-95c5-d685785844de)
 
  
