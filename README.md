@@ -87,7 +87,7 @@ requirements, calling for significant customization. This can be time-consuming 
  
 # Topic 2: Overview of Large Language Models (LLMs) Aim:
 •	To provide a foundational understanding of LLMs, including their structure, function, and practical applications.
-Procedure:
+# Procedure:
 Large Language Models (LLMs) are advanced neural networks that excel in processing and generating human-like language. They are
 designed to understand the complexities of natural language, enabling them to perform tasks such as answering questions, generating text,
 translating languages, and engaging in conversations. This report explores the fundamental concepts of LLMs, the role they play in
@@ -108,10 +108,7 @@ Large Language Models generate human-like language by processing text prompts an
 In text generation tools, LLMs can create original content based on a few input words or phrases. For instance, given the prompt "Once upon a time," the model might generate a full story by leveraging its training data to predict plausible sequences of words. This capability allows LLMs to be used in applications such as creative writing,
 automated reporting, and even programming assistance.
 4.	Popular LLMs: GPT and BERT
-Two popular examples of LLMs are GPT (Generative Pre-trained Transformer) and BERT (Bidirectional Encoder Representations from Transformers). GPT, developed by OpenAI, is a generative model that excels in producing text based on prompts. GPT models, including the latest GPT-4, have been used in numerous applications, including
- 
-chatbots, content creation, and code generation. They have set new benchmarks for fluency and coherence in text generation.
-BERT, on the other hand, focuses on understanding language by
+Two popular examples of LLMs are GPT (Generative Pre-trained Transformer) and BERT (Bidirectional Encoder Representations from Transformers). GPT, developed by OpenAI, is a generative model that excels in producing text based on prompts. GPT models, including the latest GPT-4, have been used in numerous applications, including chatbots, content creation, and code generation. They have set new benchmarks for fluency and coherence in text generation.BERT, on the other hand, focuses on understanding language by
 learning contextual relationships between words in a sentence. Unlike GPT, which reads input from left to right, BERT processes input
 bidirectionally, allowing it to capture more nuanced context. BERT has significantly improved performance on tasks such as question answering, sentiment analysis, and named entity recognition.
 5.	Pre-Training and Fine-Tuning
@@ -124,24 +121,26 @@ LLMs have transformed natural language processing with their ability to handle d
 include:
 Versatility: LLMs can perform a wide range of tasks, from language translation to content generation and sentiment analysis.
 Contextual Understanding: They are capable of understanding context and generating responses that are coherent and relevant to the input.
- 
 Automation and Efficiency:LLMs automate repetitive language tasks, such as summarizing texts and answering queries, improving
 productivity.
 
-
 However, there are challenges associated with LLMs, including:
-
-
 Resource Intensive: Training LLMs requires vast computational resources, making it expensive and time-consuming.
 Bias and Ethical Concerns:LLMs may reflect biases present in their training data, potentially leading to biased or harmful outputs.
 Ensuring ethical use of these models is an ongoing challenge.
 Data Dependency:The performance of LLMs depends heavily on the quality and diversity of their training data. Insufficient or biased data can limit their effectiveness.
-Conclusion:
+# Conclusion:
 Large Language Models, particularly those based on the transformer architecture, have revolutionized natural language understanding and generation. By leveraging vast amounts of training data, LLMs can perform a wide array of tasks with high accuracy and coherence. The processes of pre-training and fine-tuning further enhance their
 adaptability, allowing them to excel in specific domains. While LLMs offer significant benefits in terms of automation and efficiency,
 challenges related to resource demands, ethical considerations, and bias must be addressed to ensure responsible deployment in real- world applications. Popular LLMs like GPT and BERT have already made a profound impact on NLP, and continued advancements in this field will drive further innovation across industries.
  
 # References:
-https://en.wikipedia.org/wiki/Generative_artificial_intelligence https://www.altexsoft.com/blog/generative-ai/
-https://itrexgroup.com/blog/pros-and-cons-of-generative-ai/ https://www.elastic.co/what-is/large-language-models https://aws.amazon.com/what-is/large-language-model/ https://www.geeksforgeeks.org/large-language-model-llm/
+```
+https://en.wikipedia.org/wiki/Generative_artificial_intelligence 
+https://www.altexsoft.com/blog/generative-ai/
+https://itrexgroup.com/blog/pros-and-cons-of-generative-ai/ 
+https://www.elastic.co/what-is/large-language-models 
+https://aws.amazon.com/what-is/large-language-model/ 
+https://www.geeksforgeeks.org/large-language-model-llm/
 https://www.analyticsvidhya.com/blog/2023/03/an-introduction- to-large-language-models-llms/
+```
