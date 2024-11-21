@@ -27,13 +27,11 @@ o	When prompted, the trained AI generates new data by decoding or reconstructing
 text, generating visual compositions in images, or composing music that follows harmonic rules.
 4.	Refining Output (Sampling & Post-processing):
 o	The model refines the output by sampling from possible outcomes and applying additional rules or techniques to make the result
-coherent and relevant. For example, in text generation, the AI
- 
-ensures the flow of ideas, while in images, it ensures visual aesthetics and object coherence.
+coherent and relevant. For example, in text generation, the AI ensures the flow of ideas, while in images, it ensures visual aesthetics and object coherence.
 5.	User Interaction (Feedback Loop):
 o	In some advanced systems, users provide feedback to fine-tune the output, creating an iterative loop where the AI improves over time.
 This process allows the AI to generate creative outputs based on the patterns and data it has been trained on.
-Applications of generative AI
+# Applications of generative AI
 Generative artificial intelligence has applications in diverse industries such as health care, manufacturing, software development, financial services, media and entertainment, and advertising and marketing.
 Health care and pharmaceuticals
 Generative artificial intelligence has applications for all parts of the health care and pharmaceutical industry, from discovering and developing new life-saving medicine to personalizing treatment plans for individual patients to creating predictive images for charting disease progression.
@@ -71,21 +69,17 @@ deepfakes to fabricated news articles, has raised concerns about its potential f
 3.	Quality control and reliability
 AI-generated content can contain errors and inaccuracies, which can be especially critical in applications like healthcare or legal services.
 In the medical field, for instance, generative AI systems are used to generate preliminary radiology reports based on medical imaging data. Such systems aim to assist radiologists by providing quick analyses. However, the generated reports have been reported to occasionally contain errors, misinterpretations, or missed critical details in comparison to reports created by human radiologists.
-Limitations of generative AI
+# Limitations of generative AI
 1.	Limited creativity and innovation
-While generative AI is a remarkable tool for generating creative content, it is crucial to recognize generative AI limitations and acknowledge it is not a replacement for human creativity. It may lack the depth of emotional
-understanding, intuition, and cultural insight that human creators bring to the table.
+While generative AI is a remarkable tool for generating creative content, it is crucial to recognize generative AI limitations and acknowledge it is not a replacement for human creativity. It may lack the depth of emotional understanding, intuition, and cultural insight that human creators bring to the table.
 2.	Lack of complex context understanding
 Generative AI faces challenges in comprehending nuanced content, which can lead to misinterpretation and misapplication. It struggles with sarcasm,
-metaphors, and cultural subtleties, which makes it prone to generating content that is contextually incorrect or inappropriate. To navigate these generative AI limitations, it’s crucial to implement human oversight and content review
-mechanisms, especially in applications where context understanding is paramount, such as social media moderation or customer support.
+metaphors, and cultural subtleties, which makes it prone to generating content that is contextually incorrect or inappropriate. To navigate these generative AI limitations, it’s crucial to implement human oversight and content review mechanisms, especially in applications where context understanding is paramount, such as social media moderation or customer support.
 3.	Limited adaptability and customization
-Generative AI models can be challenging to tailor to specific business needs. For example, companies that have already adopted generative AI models say that they may struggle with understanding industry-specific jargon and nuances.
+Generative AI models can be challenging to tailor to specific business needs. For example, companies that have already adopted generative AI models say that they may struggle with understanding industry-specific jargon and nuances.Off-the-shelf models may not always align with your company’s unique requirements, calling for significant customization. This can be time-consuming and costly.
  
-Off-the-shelf models may not always align with your company’s unique
-requirements, calling for significant customization. This can be time-consuming and costly.
- 
-# Topic 2: Overview of Large Language Models (LLMs) Aim:
+# Topic 2: Overview of Large Language Models (LLMs) 
+# Aim:
 •	To provide a foundational understanding of LLMs, including their structure, function, and practical applications.
 # Procedure:
 Large Language Models (LLMs) are advanced neural networks that excel in processing and generating human-like language. They are
@@ -98,11 +92,7 @@ Large Language Models (LLMs) are powerful machine learning models trained on vas
 perform a wide range of tasks such as sentiment analysis, summarization, translation, and dialogue generation. Their ability to learn from context allows them to provide coherent responses that
 closely resemble human language.
 2.	Neural Network Structure: The Transformer Model
-The underlying neural network structure of modern LLMs is based on the transformer architecture. The transformer model, introduced by Vaswani et al. in 2017, revolutionized NLP by replacing traditional
- 
-recurrent neural networks (RNNs) and convolutional neural networks (CNNs). Transformers use self-attention mechanisms to weigh the
-importance of different words in a sentence, allowing the model to process words in parallel and better capture long-range dependencies between words.
-In a transformer, the model consists of an encoder and a decoder. The encoder processes the input sequence (such as a sentence), generating hidden representations of each word. The decoder then uses these representations to produce the output (such as a translated sentence or a response). This structure allows the model to understand context and generate fluent text by focusing on relevant parts of the input.
+The underlying neural network structure of modern LLMs is based on the transformer architecture. The transformer model, introduced by Vaswani et al. in 2017, revolutionized NLP by replacing traditional recurrent neural networks (RNNs) and convolutional neural networks (CNNs). Transformers use self-attention mechanisms to weigh the importance of different words in a sentence, allowing the model to process words in parallel and better capture long-range dependencies between words.In a transformer, the model consists of an encoder and a decoder. The encoder processes the input sequence (such as a sentence), generating hidden representations of each word. The decoder then uses these representations to produce the output (such as a translated sentence or a response). This structure allows the model to understand context and generate fluent text by focusing on relevant parts of the input.
 3.	LLMs in Action: Text Generation and Chatbots
 Large Language Models generate human-like language by processing text prompts and predicting the next word or sequence of words. This process involves feeding the model a prompt (such as a question or statement) and allowing it to generate coherent responses by sampling from possible outcomes. For example, in chatbots, LLMs analyze user input and produce relevant, context-aware replies by learning from previous conversations.
 In text generation tools, LLMs can create original content based on a few input words or phrases. For instance, given the prompt "Once upon a time," the model might generate a full story by leveraging its training data to predict plausible sequences of words. This capability allows LLMs to be used in applications such as creative writing,
@@ -123,7 +113,6 @@ Versatility: LLMs can perform a wide range of tasks, from language translation t
 Contextual Understanding: They are capable of understanding context and generating responses that are coherent and relevant to the input.
 Automation and Efficiency:LLMs automate repetitive language tasks, such as summarizing texts and answering queries, improving
 productivity.
-
 However, there are challenges associated with LLMs, including:
 Resource Intensive: Training LLMs requires vast computational resources, making it expensive and time-consuming.
 Bias and Ethical Concerns:LLMs may reflect biases present in their training data, potentially leading to biased or harmful outputs.
